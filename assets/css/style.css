@@ -2,7 +2,7 @@
 Código Hexadecimal verde: #8EC641
 Código Hexadecimal gris footer: #3B3B3B
 */
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,6 +36,7 @@ Código Hexadecimal gris footer: #3B3B3B
 .newsletter {
     text-align: center;
     padding: 50px;
+    color: white;
 }
 
 .newsletter button {
@@ -49,6 +50,36 @@ Código Hexadecimal gris footer: #3B3B3B
     cursor: pointer;
 }
 
+.newsletter input, .newsletter label {
+    display: block;
+    border-radius: 0.7em;
+    width: 35%;
+    height: 35px;
+    margin: 0 auto;
+    border: 0;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+#check {
+    text-align: center;
+    border: 0;
+    padding: 10px;
+}
+
+#muestras-gratis {
+    width: 15px;
+    height: 15px;
+}
+select {
+    border-radius: 0.7em;
+    width: 12%;
+    height: 35px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 1.5em;
+    color: black;
+}
 /* Section about */
 #about {
     background: url("../img/fondo-about.jpg");
