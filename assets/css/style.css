@@ -1,4 +1,4 @@
-/* 
+/*  
 Código Hexadecimal verde: #8EC641
 Código Hexadecimal gris footer: #3B3B3B
 */
@@ -61,6 +61,7 @@ Código Hexadecimal gris footer: #3B3B3B
     margin-top: 0.5em;
 }
 
+
 #check {
     text-align: center;
     border: 0;
@@ -68,9 +69,12 @@ Código Hexadecimal gris footer: #3B3B3B
 }
 
 #muestras-gratis {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 0;
 }
+
 select {
     border-radius: 0.7em;
     width: 12%;
@@ -133,4 +137,8 @@ footer {
     background-color: #3b3b3b;
     padding: 20px 30px;
     color: white;
+}
+
+h1 {
+    font-size: 2em;
 }
